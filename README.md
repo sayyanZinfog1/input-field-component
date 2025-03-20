@@ -61,81 +61,21 @@ export default MyForm;
 
 
 
-````Props
+## Props
 
-<table>
-  <tr>
-    <th>Prop</th>
-    <th>Type</th>
-    <th>Required</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><code>type</code></td>
-    <td>String</td>
-    <td>✅</td>
-    <td>Specifies the type of input field (e.g., <code>"text"</code>, <code>"email"</code>, <code>"password"</code>)</td>
-  </tr>
-  <tr>
-    <td><code>name</code></td>
-    <td>String</td>
-    <td>✅</td>
-    <td>The name attribute for the input field</td>
-  </tr>
-  <tr>
-    <td><code>placeholder</code></td>
-    <td>String</td>
-    <td>❌</td>
-    <td>Placeholder text for the input field</td>
-  </tr>
-  <tr>
-    <td><code>value</code></td>
-    <td>String</td>
-    <td>✅</td>
-    <td>Controlled value for the input field</td>
-  </tr>
-  <tr>
-    <td><code>onChange</code></td>
-    <td>Function</td>
-    <td>✅</td>
-    <td>Function triggered on input change</td>
-  </tr>
-  <tr>
-    <td><code>label</code></td>
-    <td>String</td>
-    <td>❌</td>
-    <td>Label text displayed above the input field</td>
-  </tr>
-  <tr>
-    <td><code>validationRules</code></td>
-    <td>Object</td>
-    <td>❌</td>
-    <td>Validation rules for the input (e.g., <code>{ required: true, message: "Error" }</code>)</td>
-  </tr>
-  <tr>
-    <td><code>containerStyle</code></td>
-    <td>Object</td>
-    <td>❌</td>
-    <td>Custom styles for the input container</td>
-  </tr>
-  <tr>
-    <td><code>inputStyle</code></td>
-    <td>Object</td>
-    <td>❌</td>
-    <td>Custom styles for the input field</td>
-  </tr>
-  <tr>
-    <td><code>labelStyle</code></td>
-    <td>Object</td>
-    <td>❌</td>
-    <td>Custom styles for the label</td>
-  </tr>
-  <tr>
-    <td><code>errorStyle</code></td>
-    <td>Object</td>
-    <td>❌</td>
-    <td>Custom styles for the error message</td>
-  </tr>
-</table>
+| Prop            | Type     | Required | Description |
+|----------------|---------|----------|-------------|
+| `type`         | String  | ✅  | Specifies the type of input field (e.g., `"text"`, `"email"`, `"password"`) |
+| `name`         | String  | ✅  | The name attribute for the input field |
+| `placeholder`  | String  | ❌  | Placeholder text for the input field |
+| `value`        | String  | ✅  | Controlled value for the input field |
+| `onChange`     | Function | ✅  | Function triggered on input change |
+| `label`        | String  | ❌  | Label text displayed above the input field |
+| `validationRules` | Object | ❌  | Validation rules for the input (e.g., `{ required: true, message: "Error" }`) |
+| `containerStyle` | Object | ❌  | Custom styles for the input container |
+| `inputStyle` | Object | ❌  | Custom styles for the input field |
+| `labelStyle` | Object | ❌  | Custom styles for the label |
+| `errorStyle` | Object | ❌  | Custom styles for the error message |
+
 
 
