@@ -1,0 +1,21 @@
+{
+  "name": "input-field-part", 
+  "version": "1.0.1",
+  "description": "A reusable and customizable input field component for React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react", "input", "component", "reusable", "validation"],
+  "author": "demoac19999",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "prop-types": "^15.7.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
